@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+     <title>Document</title>
+    <style>
+        body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        background: linear-gradient(to right, rgb(223, 2, 172) 0%, rgb(194, 5, 102) 30%, rgb(248, 244, 247) 0%);
+        background-position: center;
+        background-size: cover;
+        }
+        #box{
+            height: 500px;
+            width: 300px;
+            padding: 50px;
+            background-color: aliceblue;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            transition: 500ms;
+            border-radius: 20px;
+        }
+        div{
+            height: 100px;
+            width: 200px;
+            background-color: aqua;
+        }
+        input{
+            height: 40px;
+            width: 300px;
+            background-color: honeydew ;
+            border-radius: 1px;
+            margin-top: 30px;
+            font-size: 15px;
+            padding: 10px;
+
+        }
+        button{
+            height: 40px;
+            width: 300px;
+            background-color: rgb(2, 122, 234);
+            color: #fff;
+            margin-top: 30px;
+            border-radius: 10px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        #e{
+           margin-top: 100px;
+           padding: 10px;
+        }
+        #r{
+            margin-top: 600px;
+            margin-left: 10px;
+        }
+        ion-icon{
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" >
+        <h1>instagram</h1>
+        <form>
+            <input type="text" name="text" placeholder="phone number, username or email adress">
+            <br>
+            <input type="text" name="Password" placeholder="password">
+            <br>
+            <button type="submit">Log in</button>
+            <br>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <a id="e" href="#">Log in with Facebook</a>
+            <br>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <a id="r" href="#">Forgotten your Password?</a>
+        </form>
+        <br>
+    </div>
+      
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
